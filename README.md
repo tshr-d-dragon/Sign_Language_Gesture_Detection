@@ -30,4 +30,4 @@ I used Densenet121 and MobilenetV2 for training and chose Densenet121 because of
   a. https://i.pinimg.com/originals/c1/59/c7/c159c7b7568f3f4a5bd479b6d7719f75.png
   b. https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sign_language_BASL.svg/1024px-Sign_language_BASL.svg.png
   
-###### For better prediction, we need better image quality dataset for training.
+####### For better prediction, we need better image quality dataset for training.
