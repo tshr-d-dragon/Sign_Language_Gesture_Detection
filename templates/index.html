@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload image</title>
+     <style>
+      body {
+        background-image: url('https://i.pinimg.com/originals/c1/59/c7/c159c7b7568f3f4a5bd479b6d7719f75.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%; 
+        background-blend-mode: screen;
+        backdrop-filter: blur(5px);
+      }
+     </style>
+</head>
+
+<body>
+    
+    <center>
+    
+    	<h1 style="color:black; font-family:courier; font-size:330%;">Welcome to model deployment</h1>
+    
+    	<h3 style="color:black; font-family:courier; font-size:250%;">Upload image</h3>
+    	
+    	<form action="prediction" method="POST" enctype="multipart/form-data">
+    	
+    		<input type="file" name="img" style="color:black; font-family:courier; font-size:160%;">
+    		
+    		<input type="submit" name="btn" style="color:black; font-family:courier; font-size:160%;">
+    	
+    	</form>
+        
+        <h4 style="color:black; font-family:courier; font-size:160%;">Refresh before predicting again</h4>
+        
+        <p style="color:black;"><button onclick="refresh()"><b>Refresh</b></button></p>
+
+        <script>
+        function refresh() {
+          window.location.reload();
+        }
+        </script>
+                
+    </center>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prediction</title>
+	<style>
+      body {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sign_language_BASL.svg/1024px-Sign_language_BASL.svg.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        background-blend-mode: screen;
+      }
+     </style>
+</head>
+<body>
+
+	<center>
+	
+		<h1 style="color:#808000; font-family:courier; font-size:330%;">Welcome to prediction</h1>
+
+		<h3 style="color:#808000; font-family:courier; font-size:200%;">Prediction is : {{data}}</h3>
+		
+		<h3 style="color:#808000; font-family:courier; font-size:200%;">Probability of prediction is : {{data1}}%</h3>
+
+		<p style="color:#808000;"><button onclick="goBack()"><b>Go Back</b></button></p>
+
+        <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
+
+	</center>
+
+</body>
+</html>
