@@ -27,7 +27,10 @@ I used Densenet121 and MobilenetV2 for training and chose Densenet121 because of
 1. The credits for dataset used for training goes to https://www.kaggle.com/ahmedkhanak1995/sign-language-gesture-images-dataset
 2. I have modified https://github.com/Pawandeep-prog/resnet-flask-webapp/tree/main/templates html templates for flask
 3. The credit for image used in html file for background goes to: 
-  a. https://i.pinimg.com/originals/c1/59/c7/c159c7b7568f3f4a5bd479b6d7719f75.png
-  b. https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sign_language_BASL.svg/1024px-Sign_language_BASL.svg.png
+
+https://i.pinimg.com/originals/c1/59/c7/c159c7b7568f3f4a5bd479b6d7719f75.png
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sign_language_BASL.svg/1024px-Sign_language_BASL.svg.png
+  
   
 ##### For better prediction, we need better image quality dataset for training.
