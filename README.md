@@ -2,6 +2,10 @@
 
 ### A DL project with deployment to predict sign language gestures using transfer learning techniques
 
+![Home Page](https://github.com/tshr-d-dragon/Sign_Language_Gesture_Detection/blob/main/templates/Screenshot%20(134).png)
+
+![Prediction Page](https://github.com/tshr-d-dragon/Sign_Language_Gesture_Detection/blob/main/templates/Screenshot%20(133).png)
+
 This projects helps predicting sign language gestures. 
 I used Densenet121 and MobilenetV2 for training and chose Densenet121 because of comparatively better performance.
 
