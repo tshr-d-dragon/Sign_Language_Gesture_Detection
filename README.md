@@ -17,7 +17,7 @@ I used Densenet121 and MobilenetV2 for training and chose Densenet121 because of
 5. app.py file gives the walkthrough over the deployment of project in flask. All the required templates are stored in templates folder
 6. test_images folder contains images that can be used for training.
 
-## To run the prject, follow below steps
+## To run the project, follow below steps
 1. Ensure that you are in the project home directory
 2. Create anaconda environment
 3. Activate environment
